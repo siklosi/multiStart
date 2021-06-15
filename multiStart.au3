@@ -274,7 +274,7 @@ GUICtrlSetFont(-1, 10, 400, 6, "Verdana")
 GUICtrlSetColor(-1, 0x0000FF)
 GUICtrlSetOnEvent(-1, "openCoffee")
 
-GUICtrlSetData($ablabel1,"Drag and drop programs you want to be started from multiStart shortcut into input boxes, select wheather you want them to be minimized or hidden, drag and drop program from which you want icon to be used when creating shortcut and finaly click on 'Create Mult Shortcut' select where you want shortcut to be created and name it")
+GUICtrlSetData($ablabel1,"Drag and drop programs you want to be started from multiStart shortcut into input boxes, select wheather you want them to be minimized or hidden, drag and drop program from which you want icon to be used when creating shortcut and finaly click on 'Create Multi Shortcut' select where you want shortcut to be created and name it")
 GUICtrlSetData($ablabel2,"This program will create for you vbs script file (located in folder multiStart in your documents folder) and will point new shorcut to that file")
 GUICtrlSetData($ablabel3,"Finalay if you find this program usefull consider buying me a")
 GUISetState(@SW_SHOW)
